@@ -1,2 +1,3 @@
 #!/bin/bash
-cp *.html ./
+cp -u *.html 0x00-shell_basics
+
