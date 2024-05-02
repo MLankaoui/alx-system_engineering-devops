@@ -6,5 +6,8 @@ i=0
 until [ $i -eq 9 ]
 do
     echo "Best School"
+    if [ $i -eq 7 ]; then
+        echo "Hi"
+    fi
     ((i++))
 done
