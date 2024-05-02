@@ -3,8 +3,7 @@
 
 
 i=0
-until [ $i -eq 9 ]
-do
+until [ $i -eq 9 ]; do
     echo "Best School"
     ((i++))
 done
