@@ -3,7 +3,8 @@
 
 minutes=1
 hours=0
-while [ $minutes -lt 61 ] || [ $hours -lt 13 ]; do
+echo "Hour: $hours"
+while [ $minutes -lt 60 ] || [ $hours -lt 13 ]; do
     if [ $minutes -eq 60 ] && [ $hours -lt 13 ]; then
         echo "Hour: $hours"
         ((hours++))
