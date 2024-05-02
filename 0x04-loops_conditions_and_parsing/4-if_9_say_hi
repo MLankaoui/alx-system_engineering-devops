@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#a shell script that will print Best School 9 times and hi one time
+
+
+i=0
+while [ $i -lt 10 ]
+do
+    echo "Best School"
+    if [ $i -eq 8 ] 
+    then
+        echo "Hi"
+    fi
+    ((i++))
+done
