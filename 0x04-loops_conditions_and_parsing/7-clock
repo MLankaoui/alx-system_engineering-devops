@@ -3,10 +3,10 @@
 
 minutes=1
 hours=0
-echo "Hour: $hours"
+echo "Hour: "$hours
 while [ $minutes -lt 60 ] || [ $hours -lt 13 ]; do
     if [ $minutes -eq 60 ] && [ $hours -lt 13 ]; then
-        echo "Hour: $hours"
+        echo "Hour: "$hours
         ((hours++))
         minutes=1
     else
