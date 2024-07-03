@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # web stack debugging
-
+# starting apache2
 service apache2 start
